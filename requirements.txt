@@ -1,0 +1,6 @@
+streamlit
+matplotlib
+pandas  # Add any other dependencies you have
+bokeh
+requests
+numpy
