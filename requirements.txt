@@ -1,6 +1,6 @@
 streamlit
-matplotlib.pyplot
-pandas  # Add any other dependencies you have
-bokeh.plotting
+matplotlib
+pandas
+bokeh
 requests
 numpy

@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 import pandas as pd 
 import numpy as np 
-import matplotlib.pyplot as plt 
+import matplotlib as plt 
 from bokeh.plotting import figure
 
 
@@ -39,7 +39,7 @@ st.dataframe(df)  # Same as st.write(df)
 
 
 arr = np.random.normal(1, 1, size=100) 
-fig, ax = plt.subplots() 
+fig, ax = plt.pyplot.subplots() 
 ax.hist(arr, bins=20) 
  
 st.pyplot(fig) 
