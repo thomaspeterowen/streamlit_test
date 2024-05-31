@@ -22,7 +22,7 @@ st.code(code, language='python')
 st.sidebar.title('Sidebar')
 st.sidebar.write('This is where can add additional content or widgets.')
 
-#st.image('laura-cleffmann-EPJ3ptDEa0c-unsplash.jpg', caption='Moon')
+st.image('laura-cleffmann-EPJ3ptDEa0c-unsplash.jpg', caption='Moon')
 
 with st.expander("See explanation"): 
     st.write(''' 
